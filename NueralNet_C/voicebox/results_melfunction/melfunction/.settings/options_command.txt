@@ -1,0 +1,36 @@
+# Options file
+-I F:\Senior-Design-Project\voicebox\codegen\lib\melfunction
+-prog melfunction
+-verif-version 1.0
+-author bcedr
+-sources-list-file F:\Senior-Design-Project\voicebox\results_melfunction\melfunction\.settings\source_command.txt
+-lang C
+-target x86_64
+-align 64
+-long-is-32bits
+-D main=main_rtwec
+-D __restrict__=
+-D MODEL=melfunction
+-D HAVESTDIO
+-D USE_RTMODEL
+-dos
+-main-generator
+-variables-written-before-loop none
+-variables-written-in-loop none
+-functions-called-before-loop melfunction_initialize
+-functions-called-in-loop custom=melfunction
+-functions-called-after-loop melfunction_terminate
+-data-range-specifications F:\Senior-Design-Project\voicebox\results_melfunction\melfunction\melfunction_drs.xml
+-functions-to-stub rtIsNaN,rtIsInf,rtIsNaNF,rtIsInfF
+-float-rounding-mode to-nearest
+-ignore-constant-overflows
+-allow-negative-operand-in-shift
+-scalar-overflows-checks signed
+-scalar-overflows-behavior wrap-around
+-uncalled-function-checks none
+-check-subnormal allow
+-O2
+-to Software Safety Analysis level 2
+-import-comments F:\Senior-Design-Project\voicebox\results_melfunction\melfunction
+-mbd
+

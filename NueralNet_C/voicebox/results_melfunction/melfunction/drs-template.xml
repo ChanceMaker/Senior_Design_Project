@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--EDRS Version 2.0-->
+<global>
+   <file name="C:\\Program Files\\MATLAB\\R2018a\\polyspace\\verifier\\cxx\\include\\include-libc\\bits\\huge_val.h" comment="">
+      <struct name="__huge_val" comment="" line="50" attributes="static">
+         <array name="__c" comment="" line="50" complete_type="uint8 [8]" attributes="static">
+            <scalar comment="" line="50" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+         </array>
+      </struct>
+   </file>
+   <file name="C:\\Program Files\\MATLAB\\R2018a\\polyspace\\verifier\\cxx\\include\\include-libc\\bits\\huge_valf.h" comment="">
+      <struct name="__huge_valf" comment="" line="48" attributes="static">
+         <array name="__c" comment="" line="48" complete_type="uint8 [4]" attributes="static">
+            <scalar comment="" line="48" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+         </array>
+      </struct>
+   </file>
+   <file name="C:\\Program Files\\MATLAB\\R2018a\\polyspace\\verifier\\cxx\\include\\include-libc\\bits\\huge_vall.h" comment="">
+      <struct name="__huge_vall" comment="" line="37" attributes="static">
+         <array name="__c" comment="" line="37" complete_type="uint8 [12]" attributes="static">
+            <scalar comment="" line="37" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+         </array>
+      </struct>
+   </file>
+   <file name="C:\\Program Files\\MATLAB\\R2018a\\polyspace\\verifier\\cxx\\include\\include-libc\\bits\\mathcalls.h" comment="">
+      <function name="ceil" comment="" line="178" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="178" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="178" base_type="float64" complete_type="float64" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="exp" comment="" line="100" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="100" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="100" base_type="float64" complete_type="float64" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="fabs" comment="" line="181" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="181" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="181" base_type="float64" complete_type="float64" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="floor" comment="" line="184" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="184" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="184" base_type="float64" complete_type="float64" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="log" comment="" line="109" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="109" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="109" base_type="float64" complete_type="float64" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="sqrt" comment="" line="156" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="156" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="156" base_type="float64" complete_type="float64" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="C:\\Program Files\\MATLAB\\R2018a\\polyspace\\verifier\\cxx\\include\\include-libc\\bits\\nan.h" comment="">
+      <struct name="__qnan_union" comment="" line="48" attributes="static">
+         <array name="__c" comment="" line="48" complete_type="uint8 [4]" attributes="static">
+            <scalar comment="" line="48" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+         </array>
+      </struct>
+   </file>
+   <file name="C:\\Program Files\\MATLAB\\R2018a\\polyspace\\verifier\\cxx\\include\\include-libc\\string.h" comment="">
+      <function name="memcpy" comment="" line="42" main_generator_called="disabled" attributes="extern">
+         <pointer name="arg1" comment="" line="42" complete_type="void *" init_mode="disabled" initialize_pointer="disabled" number_allocated="disabled" init_pointed="MULTI"/>
+         <pointer name="arg2" comment="" line="42" complete_type="const void *" init_mode="disabled" initialize_pointer="disabled" number_allocated="disabled" init_pointed="MULTI"/>
+         <scalar name="arg3" comment="" line="42" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <pointer name="return" comment="" line="42" complete_type="void *" init_mode="PERMANENT" init_modes_allowed="4" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MULTI"/>
+      </function>
+      <function name="memset" comment="" line="62" main_generator_called="disabled" attributes="extern">
+         <pointer name="arg1" comment="" line="62" complete_type="void *" init_mode="disabled" initialize_pointer="disabled" number_allocated="disabled" init_pointed="MULTI"/>
+         <scalar name="arg2" comment="" line="62" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="62" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <pointer name="return" comment="" line="62" complete_type="void *" init_mode="PERMANENT" init_modes_allowed="4" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MULTI"/>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\RTGETINF.C" comment="">
+      <function name="rtGetInf" comment="" line="18" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="18" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rtGetInfF" comment="" line="61" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="61" base_type="float32" complete_type="float32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rtGetMinusInf" comment="" line="72" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="72" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rtGetMinusInfF" comment="" line="115" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="115" base_type="float32" complete_type="float32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\RTGETNAN.C" comment="">
+      <function name="rtGetNaN" comment="" line="19" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="19" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rtGetNaNF" comment="" line="63" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="63" base_type="float32" complete_type="float32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\abs.c" comment="">
+      <function name="b_abs" comment="" line="22" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="22" complete_type="const struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="22" complete_type="struct emxArray_real_T" attributes="const">
+               <scalar name="allocatedSize" comment="" line="22" base_type="int32" attributes="const" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="22" base_type="uint8" attributes="const" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="22" attributes="const" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="22" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="22" base_type="int32" attributes="const" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="22" attributes="const" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <pointer name="arg2" comment="" line="22" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="22" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="22" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="22" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="22" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="22" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\floor.c" comment="">
+      <function name="b_floor" comment="" line="20" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="20" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="20" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="20" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="20" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="20" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="20" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="20" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="20" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="20" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\frq2mel.c" comment="">
+      <function name="b_frq2mel" comment="" line="28" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="28" complete_type="const struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="28" complete_type="struct emxArray_real_T" attributes="const">
+               <scalar name="allocatedSize" comment="" line="28" base_type="int32" attributes="const" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="28" base_type="uint8" attributes="const" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="28" attributes="const" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="28" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="28" base_type="int32" attributes="const" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="28" attributes="const" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="28" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <pointer name="arg2" comment="" line="28" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="28" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="28" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="28" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="28" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="28" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="28" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="28" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="28" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+      <function name="frq2mel" comment="" line="140" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="140" complete_type="const float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <scalar comment="" line="140" base_type="float64" attributes="const" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         </pointer>
+         <pointer name="arg2" comment="" line="140" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <scalar comment="" line="140" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\heapsort.c" comment="">
+      <function name="b_heapsort" comment="" line="95" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="95" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="95" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="95" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="95" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="95" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <pointer name="arg4" comment="" line="95" complete_type="const struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="95" attributes="const">
+               <pointer name="f1" comment="" line="95" attributes="const" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="95" complete_type="struct emxArray_int32_T">
+                     <scalar name="allocatedSize" comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="95" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="95" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="95" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="95" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+      <function name="heapify" comment="" line="27" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <pointer name="arg1" comment="" line="27" attributes="static" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="27" complete_type="struct emxArray_int32_T" attributes="static">
+               <scalar name="allocatedSize" comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="27" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="27" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="27" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg4" comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <pointer name="arg5" comment="" line="27" attributes="static" complete_type="const struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="27" attributes="static const">
+               <pointer name="f1" comment="" line="27" attributes="static const" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="27" complete_type="struct emxArray_int32_T" attributes="static">
+                     <scalar name="allocatedSize" comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="27" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="27" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="27" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="27" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\insertionsort.c" comment="">
+      <function name="insertionsort" comment="" line="22" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="22" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="22" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="22" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="22" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="22" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <pointer name="arg4" comment="" line="22" complete_type="const struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="22" attributes="const">
+               <pointer name="f1" comment="" line="22" attributes="const" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="22" complete_type="struct emxArray_int32_T">
+                     <scalar name="allocatedSize" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="22" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="22" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="22" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="22" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\introsort.c" comment="">
+      <function name="introsort" comment="" line="35" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="35" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="35" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="35" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="35" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="35" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <pointer name="arg3" comment="" line="35" complete_type="const struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="35" attributes="const">
+               <pointer name="f1" comment="" line="35" attributes="const" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="35" complete_type="struct emxArray_int32_T">
+                     <scalar name="allocatedSize" comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="35" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="35" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="35" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="35" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\log.c" comment="">
+      <function name="b_log" comment="" line="20" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="20" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <scalar comment="" line="20" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\mel2frq.c" comment="">
+      <function name="mel2frq" comment="" line="26" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="26" complete_type="const float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <scalar comment="" line="26" base_type="float64" attributes="const" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         </pointer>
+         <pointer name="arg2" comment="" line="26" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <scalar comment="" line="26" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\melbankm.c" comment="">
+      <function name="melbankm" comment="" line="108" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="108" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="108" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="108" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="108" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="108" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="108" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <pointer name="arg2" comment="" line="108" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="108" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="108" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="108" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="108" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <pointer name="arg3" comment="" line="108" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="108" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="108" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="108" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="108" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="108" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\melfunction.c" comment="">
+      <function name="melfunction" comment="" line="54" main_generator_called="MAIN_GENERATOR" attributes="unused">
+         <pointer name="arg1" comment="" line="54" complete_type="const float64 *" init_mode="INIT" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="16000" init_pointed="MULTI">
+            <scalar comment="" line="54" base_type="float64" attributes="const" complete_type="float64" init_mode="INIT" init_modes_allowed="10" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+         </pointer>
+         <pointer name="arg2" comment="" line="54" complete_type="float64 *" init_mode="INIT" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="24" init_pointed="MULTI">
+            <scalar comment="" line="54" base_type="float64" complete_type="float64" init_mode="INIT" init_modes_allowed="10" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+         </pointer>
+      </function>
+      <function name="rt_hypotd_snf" comment="" line="27" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <scalar name="arg1" comment="" line="27" base_type="float64" attributes="static" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg2" comment="" line="27" base_type="float64" attributes="static" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="27" base_type="float64" attributes="static" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\melfunction_emxutil.c" comment="">
+      <function name="emxCopyStruct_cell_wrap_1" comment="" line="74" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="74" complete_type="struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="74">
+               <pointer name="f1" comment="" line="74" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="74" complete_type="struct emxArray_int32_T">
+                     <scalar name="allocatedSize" comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="74" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="74" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="74" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+         <pointer name="arg2" comment="" line="74" complete_type="const struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="74" attributes="const">
+               <pointer name="f1" comment="" line="74" attributes="const" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="74" complete_type="struct emxArray_int32_T">
+                     <scalar name="allocatedSize" comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="74" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="74" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="74" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="74" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+      <function name="emxCopy_int32_T" comment="" line="28" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <pointer name="arg1" comment="" line="28" attributes="static" complete_type="struct emxArray_int32_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="28" attributes="static" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="28" complete_type="struct emxArray_int32_T" attributes="static">
+                  <scalar name="allocatedSize" comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="28" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="28" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="28" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+         <pointer name="arg2" comment="" line="28" attributes="static" complete_type="struct emxArray_int32_T *const *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="28" attributes="static const" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="28" complete_type="struct emxArray_int32_T" attributes="static">
+                  <scalar name="allocatedSize" comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="28" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="28" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="28" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="28" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+      </function>
+      <function name="emxEnsureCapacity_boolean_T" comment="" line="84" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="84" complete_type="struct emxArray_boolean_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="84" complete_type="struct emxArray_boolean_T">
+               <scalar name="allocatedSize" comment="" line="84" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="84" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="84" complete_type="uint8 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="84" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="84" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="84" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="84" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="84" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxEnsureCapacity_int32_T" comment="" line="131" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="131" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="131" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="131" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="131" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="131" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="131" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="131" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="131" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="131" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="131" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxEnsureCapacity_int32_T1" comment="" line="178" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="178" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="178" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="178" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="178" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="178" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="178" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="178" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="178" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="178" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="178" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxEnsureCapacity_real_T" comment="" line="225" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="225" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="225" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="225" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="225" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="225" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="225" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="225" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="225" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="225" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="225" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxEnsureCapacity_real_T1" comment="" line="272" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="272" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="272" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="272" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="272" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="272" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="272" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="272" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="272" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="272" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="272" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxFreeMatrix_cell_wrap_1" comment="" line="318" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="318" complete_type="struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="318">
+               <pointer name="f1" comment="" line="318" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="318" complete_type="struct emxArray_int32_T">
+                     <scalar name="allocatedSize" comment="" line="318" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="318" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="318" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="318" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="318" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="318" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="318" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+      <function name="emxFreeStruct_cell_wrap_1" comment="" line="55" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <pointer name="arg1" comment="" line="55" attributes="static" complete_type="struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="55" attributes="static">
+               <pointer name="f1" comment="" line="55" attributes="static" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="55" complete_type="struct emxArray_int32_T" attributes="static">
+                     <scalar name="allocatedSize" comment="" line="55" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="55" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="55" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="55" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="55" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="55" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="55" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+      <function name="emxFree_boolean_T" comment="" line="330" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="330" complete_type="struct emxArray_boolean_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="330" complete_type="struct emxArray_boolean_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="330" complete_type="struct emxArray_boolean_T">
+                  <scalar name="allocatedSize" comment="" line="330" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="330" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="330" complete_type="uint8 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="330" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="330" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="330" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="330" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+      </function>
+      <function name="emxFree_int32_T" comment="" line="348" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="348" complete_type="struct emxArray_int32_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="348" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="348" complete_type="struct emxArray_int32_T">
+                  <scalar name="allocatedSize" comment="" line="348" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="348" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="348" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="348" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="348" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="348" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="348" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+      </function>
+      <function name="emxFree_real_T" comment="" line="365" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="365" complete_type="struct emxArray_real_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="365" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="365" complete_type="struct emxArray_real_T">
+                  <scalar name="allocatedSize" comment="" line="365" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="365" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="365" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="365" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="365" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="365" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="365" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+      </function>
+      <function name="emxInitMatrix_cell_wrap_1" comment="" line="382" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="382" complete_type="struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="382">
+               <pointer name="f1" comment="" line="382" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="382" complete_type="struct emxArray_int32_T">
+                     <scalar name="allocatedSize" comment="" line="382" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="382" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="382" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="382" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="382" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="382" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="382" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+      <function name="emxInitStruct_cell_wrap_1" comment="" line="64" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <pointer name="arg1" comment="" line="64" attributes="static" complete_type="struct  *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="64" attributes="static">
+               <pointer name="f1" comment="" line="64" attributes="static" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <struct comment="" line="64" complete_type="struct emxArray_int32_T" attributes="static">
+                     <scalar name="allocatedSize" comment="" line="64" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <scalar name="canFreeData" comment="" line="64" base_type="uint8" attributes="static" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="data" comment="" line="64" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="64" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                     <scalar name="numDimensions" comment="" line="64" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     <pointer name="size" comment="" line="64" attributes="static" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                        <scalar comment="" line="64" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                     </pointer>
+                  </struct>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+      <function name="emxInit_boolean_T" comment="" line="395" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="395" complete_type="struct emxArray_boolean_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="395" complete_type="struct emxArray_boolean_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="395" complete_type="struct emxArray_boolean_T">
+                  <scalar name="allocatedSize" comment="" line="395" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="395" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="395" complete_type="uint8 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="395" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="395" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="395" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="395" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+         <scalar name="arg2" comment="" line="395" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxInit_int32_T" comment="" line="416" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="416" complete_type="struct emxArray_int32_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="416" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="416" complete_type="struct emxArray_int32_T">
+                  <scalar name="allocatedSize" comment="" line="416" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="416" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="416" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="416" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="416" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="416" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="416" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+         <scalar name="arg2" comment="" line="416" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxInit_int32_T1" comment="" line="437" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="437" complete_type="struct emxArray_int32_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="437" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="437" complete_type="struct emxArray_int32_T">
+                  <scalar name="allocatedSize" comment="" line="437" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="437" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="437" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="437" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="437" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="437" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="437" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+         <scalar name="arg2" comment="" line="437" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxInit_real_T" comment="" line="458" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="458" complete_type="struct emxArray_real_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="458" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="458" complete_type="struct emxArray_real_T">
+                  <scalar name="allocatedSize" comment="" line="458" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="458" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="458" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="458" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="458" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="458" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="458" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+         <scalar name="arg2" comment="" line="458" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="emxInit_real_T1" comment="" line="479" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="479" complete_type="struct emxArray_real_T **" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <pointer comment="" line="479" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+               <struct comment="" line="479" complete_type="struct emxArray_real_T">
+                  <scalar name="allocatedSize" comment="" line="479" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <scalar name="canFreeData" comment="" line="479" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="data" comment="" line="479" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="479" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+                  <scalar name="numDimensions" comment="" line="479" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  <pointer name="size" comment="" line="479" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                     <scalar comment="" line="479" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+                  </pointer>
+               </struct>
+            </pointer>
+         </pointer>
+         <scalar name="arg2" comment="" line="479" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\melfunction_initialize.c" comment="">
+      <function name="melfunction_initialize" comment="" line="19" main_generator_called="MAIN_GENERATOR" attributes="unused"/>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\melfunction_terminate.c" comment="">
+      <function name="melfunction_terminate" comment="" line="19" main_generator_called="MAIN_GENERATOR" attributes="unused"/>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\nullAssignment.c" comment="">
+      <function name="b_nullAssignment" comment="" line="21" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="21" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="21" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="21" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="21" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="21" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="21" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="21" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="21" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="21" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <scalar name="arg2" comment="" line="21" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="nullAssignment" comment="" line="44" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="44" complete_type="struct emxArray_real_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="44" complete_type="struct emxArray_real_T">
+               <scalar name="allocatedSize" comment="" line="44" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="44" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="44" complete_type="float64 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="44" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="44" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="44" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="44" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\rt_nonfinite.c" comment="">
+      <scalar name="rtInf" comment="" line="17" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+      <scalar name="rtInfF" comment="" line="20" base_type="float32" complete_type="float32" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+      <scalar name="rtMinusInf" comment="" line="18" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+      <scalar name="rtMinusInfF" comment="" line="21" base_type="float32" complete_type="float32" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+      <scalar name="rtNaN" comment="" line="19" base_type="float64" complete_type="float64" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+      <scalar name="rtNaNF" comment="" line="22" base_type="float32" complete_type="float32" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+      <function name="rt_InitInfAndNaN" comment="" line="29" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg1" comment="" line="29" base_type="uint32" complete_type="uint32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\rt_nonfinite.h" comment="">
+      <function name="rtIsInf" comment="" line="24" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="24" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="24" base_type="uint8" complete_type="uint8" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rtIsNaN" comment="" line="26" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="26" base_type="float64" complete_type="float64" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="26" base_type="uint8" complete_type="uint8" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="F:\\Senior-Design-Project\\voicebox\\codegen\\lib\\melfunction\\sparse1.c" comment="">
+      <function name="permuteVector" comment="" line="37" main_generator_called="MAIN_GENERATOR">
+         <pointer name="arg1" comment="" line="37" complete_type="const struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="37" complete_type="struct emxArray_int32_T" attributes="const">
+               <scalar name="allocatedSize" comment="" line="37" base_type="int32" attributes="const" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="37" base_type="uint8" attributes="const" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="37" attributes="const" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="37" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="37" base_type="int32" attributes="const" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="37" attributes="const" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="37" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+         <pointer name="arg2" comment="" line="37" complete_type="struct emxArray_int32_T *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+            <struct comment="" line="37" complete_type="struct emxArray_int32_T">
+               <scalar name="allocatedSize" comment="" line="37" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <scalar name="canFreeData" comment="" line="37" base_type="uint8" complete_type="uint8" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="data" comment="" line="37" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="37" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+               <scalar name="numDimensions" comment="" line="37" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               <pointer name="size" comment="" line="37" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="10" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+                  <scalar comment="" line="37" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+               </pointer>
+            </struct>
+         </pointer>
+      </function>
+   </file>
+</global>

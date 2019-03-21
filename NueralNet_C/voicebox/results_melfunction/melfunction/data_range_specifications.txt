@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EDRS Version 1.0-->
+<global>
+   <file comment="" name="melfunction.c">
+      <function comment="" line="" main_generator_called="MAIN_GENERATOR" name="melfunction">
+         <pointer comment="" complete_type="" init_mode="INIT" init_modes_allowed="2" init_pointed="MULTI" initialize_pointer="Not NULL" line="" name="arg1" number_allocated="16000">
+            <scalar assert_range="unsupported" base_type="" comment="" complete_type="" global_assert="unsupported" init_mode="INIT" init_modes_allowed="2" init_range="min..max" line=""/>
+         </pointer>
+         <pointer comment="" complete_type="" init_mode="INIT" init_modes_allowed="2" init_pointed="MULTI" initialize_pointer="Not NULL" line="" name="arg2" number_allocated="24">
+            <scalar assert_range="unsupported" base_type="" comment="" complete_type="" global_assert="unsupported" init_mode="INIT" init_modes_allowed="2" init_range="min..max" line=""/>
+         </pointer>
+      </function>
+   </file>
+</global>
